@@ -21,8 +21,8 @@ function randomHexGenerator() {
 randomHexGenerator();
 
 function randomNumberGenerator() {
-  let randomNumber = Math.ceil(Math.random() * hexArray.length);
-  //   console.log(randomNumber);
+  let randomNumber = Math.ceil(Math.random() * hexArray.length - 1);
+  console.log(randomNumber);
   return randomNumber;
 }
 
