@@ -6,6 +6,8 @@ console.log(hexArray);
 const generateBtn = document.querySelector(".btn");
 const colorBox = document.querySelector(".color-box");
 // console.log(generateBtn, colorBox);
+const boxContent = document.querySelector(".box-text h2");
+console.log(boxContent);
 
 function randomHexGenerator() {
   let hexValue = "#";
@@ -27,4 +29,5 @@ function randomNumberGenerator() {
 generateBtn.addEventListener("click", function () {
   //   console.log(colorBox);
   colorBox.style.backgroundColor = randomHexGenerator();
+  boxContent.innerHTML = randomHexGenerator();
 });

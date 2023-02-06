@@ -30,6 +30,15 @@ h1 {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
 }
 
+.box-text {
+  font-family: "Poppins";
+  color: #edede9;
+  font-size: 0.75rem;
+  padding: 0.1rem 1.4rem;
+  border: 2px solid #edede9;
+  border-radius: 24px;
+}
+
 .btn {
   display: block;
   /* justify-content: center; */
